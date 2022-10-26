@@ -92,7 +92,7 @@ const showItems = notifications.map((val) => {
 
         </div>
 
-        ${ val.picture !== '' ? `<img class="pic" src="${val.picture}"></img>` : ``}
+        ${ val.picture !== '' ? `<img class="pic" alt = "${val.item}" src="${val.picture}"></img>` : ``}
 
             
     </li>
