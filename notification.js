@@ -77,7 +77,7 @@ const showItems = notifications.map((val) => {
     return ` 
     <li class = "${val.status == 1 ? 'a' : 'n'}">
         <div class = "image-container">
-            <img class = "image" src = "${val.image}"></img>
+            <img class = "image" alt = "${val.userName}" src = "${val.image}"></img>
         
         </div>
         <div class = "text-container">
@@ -90,18 +90,19 @@ const showItems = notifications.map((val) => {
             </div>
             <p class = "LG m">${val.timer}</p>
 
-            ${val.content !== '' ? `
-                <div class = "content-container">
-                    <p class = "content">${val.content}</p>
-                </div>
-            ` : ``}
-
         </div>
 
         ${ val.picture !== '' ? `<img class="pic" src="${val.picture}"></img>` : ``}
 
             
     </li>
+
+    ${val.content !== '' ? `
+        <p class = "message">${val.content}</p>
+    
+
+    ` : ``}
+
     `
 
 }).join(' ')
