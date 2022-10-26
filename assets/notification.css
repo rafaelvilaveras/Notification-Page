@@ -174,13 +174,14 @@ p {
     width: 90%;
     color: hsl(219, 12%, 42%);
     padding: 1rem;
-    background-color: hsl(205, 33%, 90%);
+    border: 2px solid hsl(205, 33%, 90%);
     border-radius: 0.5rem;
     page-break-inside: avoid;
 }
 
 .content-container:hover {
     cursor: pointer;
+    background-color: hsl(205, 33%, 90%);
 }
 
 /* Footer CSS */
