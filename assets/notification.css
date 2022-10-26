@@ -39,13 +39,17 @@ p {
 .ntf-content {
     background-color: hsl(219, 85%, 26%);
     color: hsl(0, 0%, 100%);
-    padding: 0.2rem 0.8rem;
-    margin: 0.5rem;
+    padding: 0.2em 0.8em;
+    margin: 1em 0.5em;
     border-radius: 0.5rem;
 }
 
 .ntf-p {
     flex: 30%;
+    color: hsl(219, 12%, 42%);
+}
+
+.ntf-p:hover {
     color: hsl(219, 85%, 26%);
     cursor: pointer;
 }
