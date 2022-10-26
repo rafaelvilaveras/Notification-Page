@@ -116,6 +116,7 @@ p {
 
 .text-container {
     flex: 90%;
+    margin-left: 1rem;
 }
 
 .image {
@@ -177,6 +178,7 @@ p {
     border: 2px solid hsl(205, 33%, 90%);
     border-radius: 0.5rem;
     page-break-inside: avoid;
+    margin-top: 1rem;
 }
 
 .content-container:hover {
